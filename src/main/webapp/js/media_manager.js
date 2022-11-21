@@ -1357,7 +1357,7 @@ export class MediaManager
   	}
     
 	applyConstraints(streamId, newConstaints) {
-		this.applyConstraints(newConstaints);
+		this.applyConstraints(streamId, newConstaints);
 	}
 	/**
 	 * Called by user
